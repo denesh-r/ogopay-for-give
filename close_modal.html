@@ -1,0 +1,14 @@
+<html>
+
+<head>
+</head>
+
+<body>
+	<script>
+		const urlParams = new URLSearchParams(window.location.search);
+		const url = urlParams.get('url');
+		window.parent.close_modal(url);
+	</script>
+</body>
+
+</html>
